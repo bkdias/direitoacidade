@@ -287,6 +287,11 @@ header.masthead p {
   }
 }
 
+@media only screen and (max-width: 479px) {
+    p{
+        font-size: 8px;
+    }
+}
 .text-primary {
   color: #F05F40 !important;
 }
