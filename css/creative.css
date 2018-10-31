@@ -56,7 +56,7 @@ h6 {
 }
 
 section {
-/*  padding: 8rem 0;*/
+ padding: 1.5rem 0;
 }
 
 .section-heading {
@@ -287,9 +287,9 @@ header.masthead p {
   }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 767px) {
     p{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 .text-primary {
@@ -328,7 +328,7 @@ header.masthead p {
 }
 
 .img-responsive{
-  max-width: 100%;
+  width: 100%;
   border-radius: 5%;
 
 }
@@ -340,8 +340,16 @@ header.masthead p {
 
 .tela-total {
   height: 100% !important;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .space-video{
   margin-bottom: 5px;
+}
+
+
+.sec-divisao{
+  color: #F05F40 !important;
+  text-align: center !important;
 }
